@@ -1,0 +1,141 @@
+/* 
+Assignment-1
+ */
+body{
+  font-size: 125%;
+  margin: 1%;
+  padding: 1%;
+}
+
+header{
+  padding: 1% 1% 2%;
+  width: 85%;
+  text-align: center;
+  background-color: rgb(220,220,220);
+  background-image: url("../images/flywheel.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+a{
+  background-color: rgb(220,220,220);
+}
+
+nav{
+  border-spacing: 30px 0px;
+  display: inline-block;
+  font-variant: small-caps;
+  font-family: Arial, "Times New Roman", serif;
+  text-align: center;
+  font-size: 100%;
+}
+
+nav a{
+  display: table-cell;
+  vertical-align: middle;
+  background-color: rgba(220, 220, 220, 0.3);
+  width: 15%;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 80%;
+  text-decoration: none;
+}
+
+.active {
+  background: rgb(255,255,255);
+}
+
+h1{
+  color: rgb(255,255,255);
+  text-transform: uppercase;
+}
+
+h2{
+  color: rgb(0,0,0);
+}
+.left {
+  display: inline-block;
+  width: 15%;
+  background-color: rgb(0,128,0);
+  vertical-align: top;
+  float: left;
+  text-align: center;
+  padding: 30px;
+  height: 150vh;
+}
+
+a {
+  background-color: rgb(255,255,255);
+}
+
+a:-webkit-any-link{
+  text-decoration: none;
+}
+
+.left img {
+  display: inline-block;
+  float: left;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  text-decoration: none;
+  border: 3px solid rgb(0,0,0);
+}
+
+.right {
+  margin: 0px;
+  width: 65%;
+  display: inline-block;
+  padding-left: 1%;
+}
+
+.white {
+  background-color: rgb(255,255,255);
+}
+
+table{
+  color:#06425C;
+  border-spacing: 0;
+  font-size: 80%;
+  margin-left: 40px;
+  line-height: 25px;
+}
+
+table th{
+  background-color: #CD9179;
+  color:#ffffff;
+  text-align: left;
+  font-size: 80%;
+  font-family: Arial, "Times New Roman", serif;
+  font-weight: normal;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  border-radius: 8px 8px 8px 8px;
+  border-bottom: 3px solid #CDBB79;
+  border-top: 1px solid #CDBB79;
+}
+
+table tr td{
+  border: 1px solid white;
+  background: #CDBB79;
+}
+
+table th + th
+{
+  text-align:center;
+}
+
+th, td {
+  padding: 15px;
+  border: 1px solid white;
+}
+
+table tr td {
+  width: 10em;
+  text-align: center;
+}
+
+table tr td:first-child {
+  width: 25em;
+  text-align: left;
+}

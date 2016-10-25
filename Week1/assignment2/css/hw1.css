@@ -1,0 +1,48 @@
+/* 
+Assignment-1
+ */
+body{
+  font-size: 125%;
+
+}
+
+header{
+  width: 65%;
+  background: #666666;
+  text-align: center;
+}
+
+a{
+  background-color: gray;
+}
+
+h1{
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+nav{
+  font-variant: small-caps;
+  font-family: Arial, "Times New Roman", serif;
+  text-align: left;
+  font-size: 100%;
+}
+
+h2{
+  color: #100D75;
+  text-transform: uppercase;
+}
+
+.left {
+  display: none;
+}
+
+.right {
+  width: 65%;
+  background:#B3B3B3;
+}
+
+.white {
+  background-color: white;
+}
+
